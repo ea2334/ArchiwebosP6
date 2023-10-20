@@ -4,6 +4,9 @@ const galleryEdit = document.querySelector("#openmodal");
 const gallery = document.querySelector(".gallery");
 
 function showWorks(works) {
+  
+  galleryEdit.innerHTML = '';
+
 
   works.forEach(work => {
     figure = document.createElement("figure");

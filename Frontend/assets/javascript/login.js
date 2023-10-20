@@ -11,7 +11,7 @@ btnSubmit.addEventListener("click", function(event) {
 
   // Si les valeurs ne sont pas bonnes, on affiche un message d'erreur
   if (!email || !password) {
-    document.querySelector(".error-login").innerHTML = 'Email ou mot de passe incorrect';
+    document.querySelector(".error-login").innerText = 'Email ou mot de passe incorrect';
     return;
   }
 
